@@ -8,6 +8,7 @@
 \title{\Huge{Knit Rider}\\
     \large{Bring that 80s knitting machine to the 21st century!}
 }
+
 \date{\today{}}
 
 \begin{document}
@@ -15,11 +16,30 @@
 \maketitle
 
 \begin{frame}{init}
-    \begin{itemize}[<+->]
-        \item We had an old knitting machine
-        \item It looked cool
-        \item It \alt<+>{\alert{had}}{seemed to have} a data interface
-              \only<.>{\alert{\textbackslash{}o/}}
+      So we had an old knitting machine...
+\end{frame}
+
+%% photos of
+%% - whole machine
+%% - Nadelbett
+%% - Schlitten
+%% - E-Schlitten
+%% - Demo-Bild aus Flyer
+%% - Computer (Tastenfeld)
+
+\begin{frame}{init}
+    ...but the best thing is...\pause
+    \begin{figure}
+        \missingfigure{serial interface}
+        \caption{it has a serial interface}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{the electronics}
+    \begin{itemize}
+        \item keypad
+        \item manual programming
+        \item data interface
     \end{itemize}
 \end{frame}
 
@@ -33,38 +53,59 @@
     \end{enumerate}
 \end{frame}
 
-\begin{frame}{the brother kh-940}
+\begin{frame}{the project architecture}
+    \begin{figure}
+        \missingfigure{the architecture}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{the different projects}
+    \begin{description}
+        \item [knitt] the machine
+        \item [michael] the driver
+        \item [devon] pulling the strings
+    \end{description}
+\end{frame}
+
+\begin{frame}{progress}
+    \begin{enumerate}
+        \item project name \pause [x]
+        \item github repos \pause [x]
+        \item logo \pause [x]
+        \item knit manually \pause [x]
+        \item power on ...!
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{progress}
     \begin{figure}
         \includegraphics[width=0.7\textwidth]{./images/exploded-capacitor.png}
         \caption{fubar}
     \end{figure}
 \end{frame}
 
-\begin{frame}{the brother kh-940}
-    \begin{itemize}%[<+->]
-        \item technical documentation
-        \item photos
-        \item the data interface
-    \end{itemize}
+\begin{frame}{progress}
+    \begin{enumerate}
+        \item project name [x]
+        \item github repos [x]
+        \item logo [x]
+        \item knit manually [x]
+        \item power on ... FAILED\pause
+        \item repair...
+    \end{enumerate}
 \end{frame}
 
-\begin{frame}{the different projects}
-    \begin{itemize}
-        \item knitt
-        \begin{itemize}
-            \item the machine
-        \end{itemize}
+%% diashow
+% - repairing
+% - works again
 
-        \item michael
-        \begin{itemize}
-            \item the usb driver
-        \end{itemize}
-
-        \item devon
-        \begin{itemize}
-            \item one UI to rule them all
-        \end{itemize}
-      \end{itemize}
+\begin{frame}{next steps}
+    \begin{enumerate}
+        \item knit more manually
+        \item understand protocol better
+        \item driver implementation
+        \item image processing
+    \end{enumerate}
 \end{frame}
 
 \end{document}
