@@ -1,3 +1,6 @@
 [submodule "3rd-party/DarkConsoleTheme"]
 	path = 3rd-party/DarkConsoleTheme
 	url = https://github.com/Poeschl/DarkConsole-Beamer-Theme.git
+[submodule "3rd-party/coloremoji"]
+	path = 3rd-party/coloremoji
+	url = https://github.com/alecjacobson/coloremoji.sty.git

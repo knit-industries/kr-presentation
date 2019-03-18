@@ -20,3 +20,22 @@
 
 \usetheme{DarkConsole}
 
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty}
+
+\newcommand{
+    \emojiLarge}[1]{
+    \includegraphics[width=2cm]{../3rd-party/coloremoji/emoji_images/hires/#1.pdf}}
+
+\newcommand{
+    \emojiMedium}[1]{
+    \includegraphics[width=1cm]{../3rd-party/coloremoji/emoji_images/hires/#1.pdf}}
+
+
+\newcommand{
+    \emojiSmall}[1]{
+    \includegraphics{../3rd-party/coloremoji/emoji_images/hires/#1.pdf}}
+
+\newcommand{\emojiCheck}{\emojiSmall{2705}}
+\newcommand{\emojiFail}{\emojiSmall{1F6AB}}
+
