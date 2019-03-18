@@ -12,6 +12,9 @@
 *.cb2
 .*.lb
 
+## 3rd party
+*.sty
+
 ## Intermediate documents:
 *.dvi
 *.xdv
