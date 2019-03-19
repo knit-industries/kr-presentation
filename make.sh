@@ -1,10 +1,17 @@
 #!/bin/bash
 
+echo preparation
 cp ./3rd-party/DarkConsoleTheme/*.sty ./latex
 cd latex
-pdflatex -halt-on-error main.tex
-pdflatex -halt-on-error main.tex
-pdflatex -halt-on-error main.tex
+
+for file in main-double-page main-single-page; do
+    echo $file
+    for i in 1 2 3; do
+        echo $i/3
+        pdflatex -halt-on-error $file.tex > /dev/null
+    done
+done
+echo cleaning
 rm *.sty
 
 
