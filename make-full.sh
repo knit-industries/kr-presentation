@@ -2,6 +2,8 @@
 
 echo preparation
 cp ./3rd-party/DarkConsoleTheme/*.sty ./latex
+cp ./3rd-party/pdfpcnotes/*.sty ./latex
+
 cd latex
 
 for file in main-double-page main-single-page; do

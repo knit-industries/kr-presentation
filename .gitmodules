@@ -4,3 +4,6 @@
 [submodule "3rd-party/coloremoji"]
 	path = 3rd-party/coloremoji
 	url = https://github.com/alecjacobson/coloremoji.sty.git
+[submodule "3rd-party/pdfpcnotes"]
+	path = 3rd-party/pdfpcnotes
+	url = https://github.com/cebe/pdfpc-latex-notes.git

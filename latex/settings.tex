@@ -20,6 +20,8 @@
 
 \usetheme{DarkConsole}
 
+\usepackage{pdfpcnotes}
+
 \usepackage{caption}
 \captionsetup[figure]{labelformat=empty}
 
@@ -39,5 +41,6 @@
 \newcommand{\emojiCheck}{\emojiSmall{2705}}
 \newcommand{\emojiFail}{\emojiSmall{1F6AB}}
 
-\newcommand{\says}[1]{\note{\huge{Says: \alert{#1}}}}
+%\newcommand{\says}[1]{\note{\huge{Says: \alert{#1}}}}
+\newcommand{\says}[1]{\pnote{Says: #1}}
 
