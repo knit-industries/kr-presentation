@@ -1,3 +1,4 @@
+#!/bin/bash
 
 cp ./3rd-party/DarkConsoleTheme/*.sty ./latex
 cd latex
